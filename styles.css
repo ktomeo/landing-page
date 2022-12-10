@@ -1,6 +1,16 @@
 body {
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     display: flex;
+    margin: 0px;
+}
+
+.upper {
+background-color: #1F2937;
+color: white;
+display: flex;
+padding: 15px;
+justify-content: space-between;
+flex: 1;
 }
 
 .headerlogo {
@@ -12,4 +22,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
+}
+
+ul {
+   list-style: none; 
+   display: flex;
+   gap: 15px;
 }
