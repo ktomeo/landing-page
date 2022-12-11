@@ -63,13 +63,21 @@ li {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-
+    padding-bottom: 50px;
+    max-width: 800px;
+    align-self: center;
+    gap: 50px;
 }
 
 .new-releaseleft {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
+}
+
+.featured-info {
+    max-width: 300px;
 }
 
 h2 {
@@ -79,4 +87,27 @@ h2 {
 h3 {
     display: flex;
     justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    margin: 0;
+}
+
+.branch {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.products {
+    max-height: 125px;
+    border-radius: 10%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
