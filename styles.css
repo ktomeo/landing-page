@@ -89,10 +89,9 @@ h2 {
 h3 {
     display: flex;
     justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
     font-size: 35px;
-    margin: 0;
+    margin: 0px;
+    padding-top: 30px;
 }
 
 .branch {
@@ -101,6 +100,7 @@ h3 {
     gap: 40px;
     flex: 1;
     flex-wrap: wrap;
+    margin: 30px;
 }
 
 .products {
@@ -127,8 +127,6 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 36px;
-    font-style: italic;
     max-width: 1100px;
     
 }
@@ -136,4 +134,12 @@ h3 {
 .person {
     align-self: flex-end;
     margin: 0px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.lines {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
