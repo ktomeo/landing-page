@@ -78,10 +78,12 @@ li {
 
 .featured-info {
     max-width: 300px;
+    font-size: 20px;
 }
 
 h2 {
     margin: 0px;
+    font-size: 45px;
 }
 
 h3 {
@@ -89,7 +91,7 @@ h3 {
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 30px;
+    font-size: 35px;
     margin: 0;
 }
 
@@ -110,4 +112,28 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
+}
+
+.grey-box {
+    background-color: #E5E7EB;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 1100px;
+    
+}
+
+.person {
+    align-self: flex-end;
+    margin: 0px;
 }
